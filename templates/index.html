@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+
+  <body>
+
+
+
+
+<form action="/signup" method="post" name="myForm9">
+
+Task:
+<input type="text" name="task"></input>
+
+<br>
+Email:
+<input type="text" name="email"></input>
+
+<br>
+
+
+ <select name="priority">
+  <option value="Low">Low</option>
+  <option value="Medium">Medium</option>
+  <option value="High">High</option>
+</select>
+
+<br>
+
+<input type="submit" value="Submit">
+
+<br>
+
+</form>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <form action="/cleanup/" method="post" name="myForm4">
+    <button name="forwardBtn" type="submit">Clean Values</button>
+  </form>
+
+
+
+
+<br>
+<br>
+
+  <h2>Task {{ ltaskhtml }}!</h2>
+
+
+  <h2>Email {{ lemailhtml }}!</h2>
+    <h2>Priority {{ lpriorityhtml }}!</h2>
+
+
+<br>
+
+
+  </body>
+</html>
